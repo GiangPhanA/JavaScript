@@ -8,5 +8,5 @@ if ---> trả về boolean : là true hoặc false
 5. '', ""
 6. false
 
----> conver sang bool --> trả về false.
+---> conver sang boolean --> trả về false.
 
