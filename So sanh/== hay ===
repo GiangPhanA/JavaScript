@@ -2,4 +2,4 @@ So sánh : 2 dấu == và 3 dấu ===
 
 - 2 dấu == : So sánh value
 
-- 3 dấu === : So sánh value + typeof
+- 3 dấu === : So sánh value + data typeof
