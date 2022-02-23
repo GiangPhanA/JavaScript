@@ -1,1 +1,12 @@
 Tham số và đối số
+
+function writeLog(message){
+  console.log(message);
+}
+
+----> message : là tham số
+
+
+writeLog('Test message')
+
+----> 'Test message' là đối số.
