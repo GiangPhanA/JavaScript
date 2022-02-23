@@ -1,0 +1,26 @@
+Toán tử logical và câu lệnh điều kiện If
+
+
+I. Toán tử logical
+ví dụ:
+var a = 1;
+var b = 2;
+
+result = a < b && a < 0
+
+console.log(result) --> false
+
+-> vì toán tử : &&  sẽ kiểm tra vế trái khác 6 giá trị là (null, NaN, undefined, 0, false, '' or "") thì
+   --> gán kết quả bên phải cho result. mà vế phải a < 0 --> trả về false -->result = false.
+
+ví dụ 2:
+var a = 1;
+var b = 2;
+
+result = a < b && a > 0
+
+console.log(result) --> true.
+
+
+II. câu lệnh điều kiện If --> trả về boolean : true hoặc false.
+
