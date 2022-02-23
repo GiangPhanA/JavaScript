@@ -1,1 +1,12 @@
 if ---> trả về boolean : là true hoặc false
+
+- 6 giá trị :
+1. 0
+2. undefined
+3. null
+4. NaN
+5. '', ""
+6. false
+
+---> conver sang bool --> trả về false.
+
