@@ -5,6 +5,8 @@ I. Toán tử logical && : Đọc từ vế trái qua vế phải.
  - Nếu vế trái 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế trái gán cho kết quả.
  - Nếu vế trái khác 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế phải gán cho kết quả.
  
+ + NaN : số không hợp lệ.
+ 
 ví dụ:
 var a = 1;
 var b = 2;
