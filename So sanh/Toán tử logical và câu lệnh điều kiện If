@@ -23,4 +23,7 @@ console.log(result) --> true.
 
 
 II. câu lệnh điều kiện If --> trả về boolean : true hoặc false.
+ - đúng -> true
+ - sai -> false.
+ 
 
