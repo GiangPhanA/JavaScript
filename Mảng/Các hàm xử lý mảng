@@ -1,0 +1,60 @@
+
+
+1. Hàm array.concat()
+
+Hàm dùng để nối hai mảng với nhau và trả về một mảng gồm tổng số phần tử của hai mảng đó.
+
+var mang1 = ["Học", "lập", "trình"];
+var mang2 = ["tại", "freetuts.net"];
+// Nối mảng
+var mang_con = mang1.concat(mang2);
+document.write(mang_con.valueOf());
+
+
+2. Hàm array.slice()
+
+Hàm dùng để lấy một số phần tử con trong mảng. Có hai tham số truyền vào như sau: slice(start, end).
+
+Trong đó:
+
+    start: là vị trí bắt đầu
+    end: là vị trí kết thúc
+
+Lưu ý: Để dễ hiểu thì start sẽ phần tử đầu tiên là 0 và end sẽ tính phần tử đầu tiên là 1. 
+Chính vì vậy bạn sẽ phải cộng thêm 1 ở end thì mới lấy đúng phần tử mong muốn
+
+
+3.Hàm array.push()
+
+Hàm này sẽ thêm một phần tử vào cuối mảng.
+
+4. Hàm array.pop()
+
+Ngược với hàm array.push(), hàm này có tác dụng xóa đi phần tử cuối cùng trong mảng.
+
+
+5. Hàm array.shift()
+
+Hàm xóa phần tử đầu tiên của mảng, sau đó dồn các phần tử phía sau xuống một bậc.
+
+6. Hàm array.unshift()
+
+Thêm một phần tử vào vị trí đầu tiên của mảng, đồng thời đẩy các phẩn từ phía sau lên một bậc.
+
+7. Hàm array.splice()
+
+Hàm splice() có ba tham số truyền vào như sau: splice(position_add, num_element_remove, value1, value2, ...).
+
+Trong đó:
+
+    position_add là vị trí sẽ thêm (vị trí đầu tiên là 0)
+    num_element_remove là số phần tử sẽ xóa (bắt đầu từ position_add)
+    value1, value2, .. là danh sách các phần tử sẽ được thêm vào sau khi tại vị trí position_add và sau khi xóa số lượng num_element_remove phần tử.
+
+Demo RUN
+
+var mang = ["Học", "lập", "trình", "tại", "freetuts.net"];
+ 
+mang.splice(1, 2, 'PHP', 'căn bản ');
+document.write(mang.valueOf());
+
