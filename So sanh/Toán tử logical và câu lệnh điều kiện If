@@ -1,7 +1,7 @@
 Toán tử logical và câu lệnh điều kiện If
 
 
-I. Toán tử logical : Đọc từ vế trái qua vế phải. 
+I. Toán tử logical && : Đọc từ vế trái qua vế phải. 
  - Nếu vế trái 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế trái gán cho kết quả.
  - Nếu vế trái khác 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế phải gán cho kết quả.
  
@@ -23,6 +23,11 @@ var b = 2;
 result = a < b && a > 0
 
 console.log(result) --> true.
+
+
+I. Toán tử logical || : Đọc từ vế trái qua vế phải. 
+ - Nếu vế trái khác 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế trái gán cho kết quả.
+  - Nếu vế trái 6 giá trị là (null, NaN, undefined, 0, false, '' or "") --> lấy vế phải gán cho kết quả.
 
 
 II. câu lệnh điều kiện If --> trả về boolean : true hoặc false.
