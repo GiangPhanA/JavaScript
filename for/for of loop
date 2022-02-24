@@ -12,3 +12,15 @@ for(var value of languages) {
 
 --> in ra JavaScript, PHP, Python
 
+
+
+ví dụ chuỗi
+
+var languages = 'JavaScript';
+
+for(var value of languages) {
+  console.log(value);
+}
+
+--> in ra J a v a S c r i p t
+
