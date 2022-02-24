@@ -1,0 +1,13 @@
+while:
+
+
+do- whlie: chạy ít nhất 1 lần, rồi kiểm tra điều kiện trong while
+ví dụ:
+
+var i =0;
+do {
+i++;
+console.log(i);
+}
+while(i< 10);
+
