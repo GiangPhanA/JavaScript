@@ -4,13 +4,13 @@ rẽ nhánh if else
 var date = 2;
 
 if(date === 2){
-  console.log('Hom nay là thứ 2)
+  console.log('Hom nay là thứ 2')
 }
 if(date === 3){
-  console.log('Hom nay là thứ 3)
+  console.log('Hom nay là thứ 3')
 }
 if(date === 4){
-  console.log('Hom nay là thứ 4)
+  console.log('Hom nay là thứ 4')
 }
 
 --> Luồng chạy: kiểm tra tất cả các điều kiện if cho dù if đầu tiên đã đúng
@@ -19,11 +19,27 @@ if(date === 4){
 var date = 2;
 
 if(date === 2){
-  console.log('Hom nay là thứ 2)
+  console.log('Hom nay là thứ 2')
 }else if(date === 3){
-  console.log('Hom nay là thứ 3)
+  console.log('Hom nay là thứ 3')
 }else if(date === 4){
-  console.log('Hom nay là thứ 4)
+  console.log('Hom nay là thứ 4')
 }
 
 --> Luồng chạy: kiểm tra từ trên xuống, gặp điều kiện đúng thì kết thúc.
+
+
+3.Ví dụ 3
+var date = 9;
+
+if(date === 2){
+  console.log('Hom nay là thứ 2')
+}else if(date === 3){
+  console.log('Hom nay là thứ 3')
+}else if(date === 4){
+  console.log('Hom nay là thứ 4')
+}else {
+  console.log('Không biết')
+}
+
+--> Luồng chạy: kiểm tra từ trên xuống, không điều kiện nào đúng nhảy vào else.
