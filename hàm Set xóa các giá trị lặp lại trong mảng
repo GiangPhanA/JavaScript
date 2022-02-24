@@ -1,0 +1,9 @@
+hàm Set xóa các giá trị lặp lại trong mảng
+
+ví dụ: 
+
+var array =['a', 'b', 'c','a', 'b', 'c'];
+
+console.log([...(new Set(array))]);
+
+---> ['a', 'b', 'c']
