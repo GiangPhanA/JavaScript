@@ -18,3 +18,6 @@ if(course.coin > 0){
 
 var result = course.coin > 0 ? `${course.coin} Coin`: 'Miễn phí';
 console.log(result);
+
+--> Viết ngắn ngọn hơn, điều kiện đơn giản .
+
