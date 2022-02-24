@@ -1,0 +1,29 @@
+rẽ nhánh if else
+
+1. Ví dụ 1
+var date = 2;
+
+if(date === 2){
+  console.log('Hom nay là thứ 2)
+}
+if(date === 3){
+  console.log('Hom nay là thứ 3)
+}
+if(date === 4){
+  console.log('Hom nay là thứ 4)
+}
+
+--> Luồng chạy: kiểm tra tất cả các điều kiện if cho dù if đầu tiên đã đúng
+
+2. Ví dụ 2
+var date = 2;
+
+if(date === 2){
+  console.log('Hom nay là thứ 2)
+}else if(date === 3){
+  console.log('Hom nay là thứ 3)
+}else if(date === 4){
+  console.log('Hom nay là thứ 4)
+}
+
+--> Luồng chạy: kiểm tra từ trên xuống, gặp điều kiện đúng thì kết thúc.
