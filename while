@@ -11,3 +11,18 @@ console.log(i);
 }
 while(i< 10);
 
+
+
+ví dụ: nạp thẻ lỗi 3 lần --> không nạp nữa.
+
+var i =0;
+var isSuccess = false;
+
+do {
+    i++;
+    console.log('Nap the lan ' + i);
+    //nap thất bại
+    if(false) {
+    isSuccess = true;
+}
+while(!isSuccess && i <= 3)
