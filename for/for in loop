@@ -1,4 +1,4 @@
-for in loop
+for in loop : Lấy ra giá trị của obj, mảng, từng phần tử của chuỗi.
 
 var myInfo = {
   name: 'Giang Phan',
