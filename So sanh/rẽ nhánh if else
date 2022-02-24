@@ -43,3 +43,15 @@ if(date === 2){
 }
 
 --> Luồng chạy: kiểm tra từ trên xuống, không điều kiện nào đúng nhảy vào else.
+
+
+II. dùng if-else và switch-case
+
+1. Dùng if-else : 
+- <, > !== : đúng hay sai
+- khi số điều kiện < 3, 
+
+2. Dùng switch-case
+- khi số điều kiện > 3, 
+- khi biết trước giá trị.
+
