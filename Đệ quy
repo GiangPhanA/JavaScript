@@ -15,3 +15,16 @@ function countDown(num){
 countDown(3);
 
 --> in ra 3,2, 1
+
+
+ví dụ đệ quy tính giai thừa
+
+function giaiThua(number){
+  if(number > 0){
+    return number*giaiThua(number-1)
+}
+return 1;
+}
+console.log(giaiThua(6));
+
+--> 720
