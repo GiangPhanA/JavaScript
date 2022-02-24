@@ -11,3 +11,11 @@ for(var key in myInfo){
 }
 --> in ra key : name, age, address
 
+
+
+for(var key in myInfo){
+  console.log(myInfo[key]);
+}
+
+--> in ra value: Giang Phan, 18, Việt Nam.
+
