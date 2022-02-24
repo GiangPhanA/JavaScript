@@ -1,1 +1,20 @@
-Toán tử 3 ngôi (Ternary operator)
+Toán tử 3 ngôi (Ternary operator) : Có 3 vế
+
+ví dụ:
+
+var course = {
+ name: 'Javascript',
+ coin: 250
+}
+
+// toán tử 2 ngôi với if
+if(course.coin > 0){
+  console.log(`${course.coin} Coin`)
+}else console.log('Miễn phí')
+
+
+
+// Toán tử 3 ngôi
+
+var result = course.coin > 0 ? `${course.coin} Coin`: 'Miễn phí';
+console.log(result);
