@@ -1,0 +1,13 @@
+Vòng lặp for
+
+for( var i=1; i <= 100; i++){
+  console.log(i)
+}
+
+Cách hoạt động:
+- chạy đoạn mã i =1 tạo ra biến i và gán biến i =1  --> đoạn mã này chỉ chạy duy nhất 1 lần.
++
+- thực thi đoạn mã thứ 2 : i =1 thỏa mãn điều kiện i <= 100 --> trả về true
+  + vòng lặp for thực thi đoạn mã console.log(i).
+- Chuyển sang thực hiện đoạn mã thứ 3 i++ tăng i lên 1 tức là i =2,
+- Kiểm tra điều kiện ở đoạn mã 2 ....
