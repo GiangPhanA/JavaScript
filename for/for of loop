@@ -24,3 +24,13 @@ for(var value of languages) {
 
 --> in ra J a v a S c r i p t
 
+ví dụ với obj
+
+var myInfo = {
+name: 'Giang Phan',
+age: 18
+}
+
+for(var value of Object.values(myInfo)){
+ console.log(value)
+}
