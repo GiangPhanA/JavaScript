@@ -1,0 +1,13 @@
+for in loop
+
+var myInfo = {
+  name: 'Giang Phan',
+  age: 28,
+  address: "Việt Nam'
+}
+
+for(var key in myInfo){
+  console.log(key);
+}
+--> in ra key : name, age, address
+
