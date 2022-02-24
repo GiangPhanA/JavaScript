@@ -1,3 +1,14 @@
 for of loop : 
 - Lấy giá trị phần tử mảng , chuỗi
 - với obj phải biến đổi 1 chút.
+
+
+ví dụ: 
+var languages = ['JavaScript', 'PHP', 'Python'];
+
+for(var value of languages) {
+  console.log(value);
+}
+
+--> in ra JavaScript, PHP, Python
+
