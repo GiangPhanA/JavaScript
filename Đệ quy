@@ -3,3 +3,15 @@
 - Xác định điểm dừng
 - Logic handle (xử lý logic) ---> tạo ra điểm dừng.
 
+ví dụ countdown
+
+function countDown(num){
+ if(num > 0){
+ console.log(num);
+ return countDown(num -1)
+ }
+ return num;
+}
+countDown(3);
+
+--> in ra 3,2, 1
