@@ -13,3 +13,5 @@ Khái niệm : DOM : Document Object Model : Quy chuẩn của W3C đưa ra --> 
 javascript: cung cấp bộ công cụ tác động lên DOM (truy xuất)
 - DOM : không phải là của javascript.
 - javascript : có thể chạy trình duyệt- brower, server
+
++ brower -> HTML -> DOM -> WEB API.
