@@ -27,3 +27,7 @@ Array method
     + arr - mảng mà phần tử hiện tại thuộc về.
     + initialValue - tham số không bắt buộc. Nếu được truyền vào thì initialValue sẽ được sử dụng làm giá trị ban đầu,
     còn không thì nó sẽ lấy giá trị của phần tử đầu tiên. Nếu mảng cần reduce rỗng thì bạn phải truyền giá trị này, nếu không sẽ bị báo lỗi.
+
+
+- reduce có initialValue thì lần đầu chạy total = initialValue
+- reduce không có initialValue thì lần đầu chạy total = giá trị đầu tiên của array.
