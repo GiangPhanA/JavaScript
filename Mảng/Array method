@@ -12,3 +12,18 @@ Array method
 - Dễ hiểu
 - ngắn ngọn
 - Hiệu năng
+
+
+2.  Cú pháp hàm reduce trong Javascript 
+ 
+ - array.reduce(callback, initialValue)  --> reduce có 2 đối số: callback và initialValue.
+ 
+ array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+ 
+ 
+    + total - giá trị trả lại trước đó của function, chính là giá trị của lệnh return cho mỗi lần lặp.
+    + currentValue - giá trị của phần tử hiện tại.
+    + currentIndex- chỉ số của phần tử hiện tại.
+    + arr - mảng mà phần tử hiện tại thuộc về.
+    + initialValue - tham số không bắt buộc. Nếu được truyền vào thì initialValue sẽ được sử dụng làm giá trị ban đầu,
+    còn không thì nó sẽ lấy giá trị của phần tử đầu tiên. Nếu mảng cần reduce rỗng thì bạn phải truyền giá trị này, nếu không sẽ bị báo lỗi.
