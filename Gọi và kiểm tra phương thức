@@ -1,0 +1,11 @@
+Gọi và kiểm tra phương thức
+
+Array.prototype
+Number.prototype
+
+console.log(Array.prototype) ---> in ra các phương thức của Array được định nghĩa sẵn hoặc được thêm
+
+- Định nghĩa thêm phương thức cho Array như sau
+
+Array.prototype.forEach2 = function(callback){
+}
