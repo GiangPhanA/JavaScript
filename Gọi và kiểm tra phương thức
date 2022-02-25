@@ -6,6 +6,7 @@ Number.prototype
 console.log(Array.prototype) ---> in ra các phương thức của Array được định nghĩa sẵn hoặc được thêm
 
 - Định nghĩa thêm phương thức cho Array như sau
+- for in : duyệt qua cả phương thức.
 
 Array.prototype.forEach2 = function(callback){
    for(var index in this){
