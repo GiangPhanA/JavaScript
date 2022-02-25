@@ -1,8 +1,8 @@
-Khái niệm
+Khái niệm : DOM : Document Object Model
 -HTML DOM có 3 thành phần
  + element
  + attribute
  + text
  
  
- - 1 ô vuông : gọi là 1 node
+ - 1 ô vuông : gọi là 1 node : là element, attribute, text
