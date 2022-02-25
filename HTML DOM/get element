@@ -2,7 +2,8 @@
     1. Sử dụng getElementById để tìm theo ID
     2. Sử dụng getElementsByTagName để tìm theo tên thẻ html
     3. Sử dụng getElementsByClassName để tìm theo tên class
-    4. Sử dụng querySelectorAll để tìm theo CSS selector
+    4. Sử dụng querySelector để tìm theo CSS selector
+    5. Sử dụng querySelectorAll để tìm theo CSS selector
     
     
  
@@ -15,7 +16,11 @@
 
 
 // còn lại Class, Tag, thì trả về HTML Collection(có các property giống mảng)
+// querySelectorAll trả về NodeList
++ muốn lấy phần tử 
+var headings = document.querySelectorAll('.heading');
 
+console.log(headings[0])
 
 
 Chú ý: Ta có thể gọi từ documnet : var listItems1 = document.querySelectorAll('.parent>li')
