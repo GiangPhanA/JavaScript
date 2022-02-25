@@ -4,3 +4,8 @@
 
 // còn lại Class, Tag, thì trả về HTML Collection(có các property giống mảng)
 //cách bạn có cũng có thẻ dùng getElementByTag để pass qua bài này
+
+
+Chú ý: Ta có thể gọi từ documnet : var listItems1 = document.querySelectorAll('.parent>li')
+- khi đứng listItems1 ta có thể selection thẻ con trong thẻ listItems1.
+ listItems1.document.querySelectorAll('li')
