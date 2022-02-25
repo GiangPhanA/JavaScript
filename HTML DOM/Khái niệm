@@ -1,8 +1,15 @@
-Khái niệm : DOM : Document Object Model
+Khái niệm : DOM : Document Object Model : Quy chuẩn của W3C đưa ra --> quy chuẩn làm web
+
 -HTML DOM có 3 thành phần
- + element
- + attribute
- + text
+ + element : các thẻ html, head, body, div ...
+ + attribute : 
+ + text : nằm giữa các thẻ
  
  
  - 1 ô vuông : gọi là 1 node : là element, attribute, text
+
+
+
+javascript: cung cấp bộ công cụ tác động lên DOM (truy xuất)
+- DOM : không phải là của javascript.
+- javascript : có thể chạy trình duyệt- brower, server
