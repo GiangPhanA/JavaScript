@@ -35,4 +35,5 @@ console.log(documnet.forms[0])
 
 document.write('Hello')
 
----> in ra bất kì vị trí nào khi thực thi : 
+---> in ra bất kì vị trí nào khi thực thi : trong thẻ scrip.
+- document.write('Hello') : ở cửa sổ trình duyệt -->ghi đè, xóa hết 
