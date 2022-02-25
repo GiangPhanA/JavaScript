@@ -1,4 +1,13 @@
-Attribute node & Text node
+1. Attribute node & Text node
 
 - Attribute : thuộc tính nằm trong thẻ mở.
 - Text node : phần chữ nằm giữa thẻ đóng và thẻ mở.
+
+
+2.DOM attribute:
+
+set Attribute:
+-element.setAttribute("class", "democlass");
+
+ kiểm tra Attribute
+let text = element.getAttribute("class");
