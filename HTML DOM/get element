@@ -26,3 +26,13 @@ console.log(headings[0])
 Chú ý: Ta có thể gọi từ documnet : var listItems1 = document.querySelectorAll('.parent>li')
 - khi đứng listItems1 ta có thể selection thẻ con trong thẻ listItems1.
  listItems1.document.querySelectorAll('li')
+
+
+HTML Collection : thẻ a, img, forms
+console.log(documnet.forms['form-1])
+console.log(documnet.forms[0])
+
+
+document.write('Hello')
+
+---> in ra bất kì vị trí nào khi thực thi : 
