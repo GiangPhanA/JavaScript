@@ -1,3 +1,11 @@
+ 
+    1. Sử dụng getElementById để tìm theo ID
+    2. Sử dụng getElementsByTagName để tìm theo tên thẻ html
+    3. Sử dụng getElementsByClassName để tìm theo tên class
+    4. Sử dụng querySelectorAll để tìm theo CSS selector
+    
+    
+ 
  Có 2 cách lấy trực tiếp ra element trong DOM
 // Cách 1: Sử dụng querySelector
 // Cách 2: getElementByID
