@@ -31,3 +31,4 @@ Array method
 
 - reduce có initialValue thì lần đầu chạy total = initialValue
 - reduce không có initialValue thì lần đầu chạy total = giá trị đầu tiên của array.
+- initialValue : có thể là number, []...
