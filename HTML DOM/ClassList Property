@@ -1,2 +1,28 @@
 ClassList Property : thuộc tính của element node.
+-add
+-containes : Kiểm tra có class nằm trong element
+-remove
+-toggle : thêm hoặc gỡ bỏ class.
+
+
+ví dụ:
+
+- tạo thẻ HTML
+      <div class="box">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+      
+ - Kiểm tra:
+ 
+var boxElement = document.querySelector('.box')
+
+console.log(boxElement.classList);
+
+- Vào console của trình duyệt kiểm tra.
+
+
+
+
+
+
 
