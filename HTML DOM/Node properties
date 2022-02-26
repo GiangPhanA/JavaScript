@@ -15,3 +15,10 @@ console.log([boxElement]);
 
 -> Vào console của trình duyệt để xem kết quả.
 
+
+contenteditable="" có thể thay đổi trực tiếp nội dung thẻ html trên DOM
+
+<div class="box" contenteditable="">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+      
