@@ -23,4 +23,32 @@ boxElement.onclick = function () {
 }
 
 
+- xem thông tin sự kiện:
+var boxElement = document.querySelector('h1')
+
+boxElement.onclick = function (e) {
+    console.log(e)
+    // console.log(this.innerHTML)
+}
+
+
+---> Chú ý: target: <h1> --> là thằng được click
+
+- Ví dụ nhiều thẻ h1 trong thẻ div, xác định thẻ h1 được click
+HTML
+      <div class="box box-2">
+        <h1 >Xin chào Giang Phan 1</h1>
+        <h1 >Xin chào Giang Phan 2</h1>
+        <h1 >Xin chào Giang Phan 3</h1>
+      </div>
+- JS
+var boxElement = document.querySelectorAll('h1')
+
+for (var i = 0; i < boxElement.length; i++) {
+    boxElement[i].onclick = function (e) {
+        console.log(e.target)
+        // console.log(this.innerHTML)
+    }
+}
+
 
