@@ -4,6 +4,10 @@ DOM events : sự kiện diễn ra trong DOM
 - Sự kiện trình duyệt: tải web, nhập url -> nhấn enter.
 
 DOM events
-- attribute events.
+- attribute events. Viết trong thẻ mở của thẻ tag 
++ sự kiện thêm chữ on trước event : onclick, onchange
++ ví dụ: <h1 onclick ="console.log(this.innerText)">Xin chào Giang Phan</h1>
+-> chú ý: sự kiện nổi bọt
+
 
 - Assign event using the element node
