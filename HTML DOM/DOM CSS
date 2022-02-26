@@ -1,5 +1,6 @@
 DOM CSS
 
+style : thuộc tính của element node.
 
 - Tạo thẻ HTML
       <div class="box">
