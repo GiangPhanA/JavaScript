@@ -1,0 +1,17 @@
+Node properties
+
+- Tạo tag trong HTML
+      <div class="box">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+      
+- Get element
+var boxElement = document.querySelector('.box')
+
+
+- Kiểm tra các thuộc tính: bỏ biến boxElement vào trong mảng như bên dưới
+
+console.log([boxElement]); 
+
+-> Vào console của trình duyệt để xem kết quả.
+
