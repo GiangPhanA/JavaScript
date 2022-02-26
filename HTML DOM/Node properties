@@ -9,7 +9,7 @@ Node properties
 var boxElement = document.querySelector('.box')
 
 
-- Kiểm tra các thuộc tính: bỏ biến boxElement vào trong mảng như bên dưới
+- Kiểm tra các thuộc tính: bỏ biến boxElement vào trong mảng như bên dưới : [boxElement]
 
 console.log([boxElement]); 
 
