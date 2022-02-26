@@ -3,12 +3,14 @@ ClassList Property : thuộc tính của element node.
 -containes : Kiểm tra có class nằm trong element
 -remove
 -toggle : thêm hoặc gỡ bỏ class.
+... kiểm tra ở <prototype> như ví dụ dưới.
+
 
 
 ví dụ:
 
 - tạo thẻ HTML
-      <div class="box">
+      <div class="box box-2">
         <h1 title = "tit">Xin chào Giang Phan</h1>
       </div>
       
@@ -20,6 +22,33 @@ console.log(boxElement.classList);
 
 - Vào console của trình duyệt kiểm tra.
 
+DOMTokenList [ "box", "box-2" ]
+​
+0: "box"
+​
+1: "box-2"
+​
+length: 2
+​
+value: "box box-2"
+​
+<prototype>: DOMTokenListPrototype { item: item(), contains: contains(), add: add(), … }
+
+2 - add thêm class
+
+-    thêm 
+<style>
+      .redclass {
+        color: red
+      }
+    </style>
+
+- add class trong js
+var boxElement = document.querySelector('.box')
+
+boxElement.classList.add('redclass');
+
+-> kiểm tra trên trình duyệt.
 
 
 
