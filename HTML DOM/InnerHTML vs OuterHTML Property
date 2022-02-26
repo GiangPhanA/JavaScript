@@ -1,2 +1,9 @@
+Thêm 1 element trong 1 element : InnerHTML vs OuterHTML Property thuộc tính InnerHTML vs OuterHTML
+- tạo <div class="box"></div> trong file html
+- get được element.  var boxElement = document.querySelector('.box') trong file js
+- thêm element trong js : boxElement.innerHTML = '<h1>Xin chào Giang Phan</h1>'
+
+-> Lấy ra được text (get) được h1: console.log(document.querySelector('h1').innerText)
+
 InnerHTML vs OuterHTML Property
 
