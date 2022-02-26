@@ -27,7 +27,13 @@ headingElement.innerText = 'New Heading'
 
 
 2. innerText và textContent
+-innerText : lấy từ element , không lấy trực tiếp từ textnode được.
+- textContent lấy được từ textnode được.
 
 - Khác nhau: khi có thẻ con: textContent lấy ra được khoảng cách, nội dung trong các thẻ tag nằm trong thẻ cha .... đầy đủ.
 - innerText : như nhìn thấy trên trình duyệt.
 
+
+headingElement.textContent = '<i>New Heading</i>' ---> kết quả <i>New Heading</i>
+
+headingElement.innerText = '<i>New Heading</i>' ---> kết quả <i>New Heading</i>
