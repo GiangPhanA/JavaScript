@@ -11,3 +11,16 @@ DOM events
 
 
 - Assign event using the element node
+-HTML
+    <div class="box box-2">
+        <h1 >Xin chào Giang Phan</h1>
+      </div>
+- trong js
+var boxElement = document.querySelector('h1')
+
+boxElement.onclick = function () {
+    console.log(this.innerHTML)
+}
+
+
+
