@@ -23,4 +23,11 @@ var headingElement = document.querySelector('.heading');
 console.log(headingElement.innerText);
 console.log(headingElement.textContent);
 
+headingElement.innerText = 'New Heading'
+
+
+2. innerText và textContent
+
+- Khác nhau: khi có thẻ con: textContent lấy ra được khoảng cách
+- innerText : như nhìn thấy trên trình duyệt.
 
