@@ -1,1 +1,15 @@
 DOM CSS
+
+
+- Tạo thẻ HTML
+      <div class="box">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+      
+- Lấy DOM CSS
+var boxElement = document.querySelector('.box')
+// console.log([boxElement]);
+console.log(boxElement.style);
+
+- Vào console của trình duyệt để xem.
+
