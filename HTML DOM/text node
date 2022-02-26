@@ -28,6 +28,6 @@ headingElement.innerText = 'New Heading'
 
 2. innerText và textContent
 
-- Khác nhau: khi có thẻ con: textContent lấy ra được khoảng cách
+- Khác nhau: khi có thẻ con: textContent lấy ra được khoảng cách, nội dung .... đầy đủ.
 - innerText : như nhìn thấy trên trình duyệt.
 
