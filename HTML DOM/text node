@@ -9,6 +9,8 @@ truy cập elemnent : qua document (cao nhất) quản lý tất cả các eleme
 (như cây (tree) HTMl
 
 text node
+- Geter: lấy ra headingElement.innerText
+- Seter: thiết lập headingElement.innerText = "new heading";
 
 
 <h1 class="heding">Heading Text</h1>
@@ -20,3 +22,5 @@ text node
 var headingElement = document.querySelector('.heading');
 console.log(headingElement.innerText);
 console.log(headingElement.textContent);
+
+
