@@ -51,7 +51,7 @@ boxElement.classList.add('redclass');
 -> kiểm tra trên trình duyệt.
 
 
-3. Kiểm tra class
+3. Kiểm tra class : contains
 
 console.log(boxElement.classList.contains('box-2')) 
 -> có trả về true
