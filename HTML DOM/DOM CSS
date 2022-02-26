@@ -13,3 +13,9 @@ console.log(boxElement.style);
 
 - Vào console của trình duyệt để xem.
 
+- Viết CSS trong JS : viết theo kiểu camecase
+
+var boxElement = document.querySelector('.box')
+// console.log([boxElement]);
+boxElement.style.width = '200px';
+boxElement.style.backgroundColor = 'red'
