@@ -1,4 +1,6 @@
 Thêm 1 element trong 1 element : InnerHTML vs OuterHTML Property thuộc tính InnerHTML vs OuterHTML
+
+1.InnerHTML
 - tạo <div class="box"></div> trong file html
 - get được element.  var boxElement = document.querySelector('.box') trong file js
 - thêm element trong js : boxElement.innerHTML = '<h1>Xin chào Giang Phan</h1>'
@@ -10,7 +12,44 @@ InnerHTML: thêm được
 - attribute : boxElement.innerHTML = '<h1 title="heading">Xin chào Giang Phan</h1>'
 - text node: console.log(boxElement.innerHTML)
 
+ví dụ: 
+- tạo thẻ:
+      <div class="box">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+  -get được element : var boxElement = document.querySelector('.box')
+  - thêm thẻ: boxElement.innerHTML = '<span>Test add element</span>'
+  
+  -> kết quả 
+
+2. OuterHTML
+ví dụ 1: 
+- tạo thẻ:
+      <div class="box">
+        <h1 title = "tit">Xin chào Giang Phan</h1>
+      </div>
+  -get được element : var boxElement = document.querySelector('.box')
+  - thêm thẻ: boxElement.innerHTML = '<span>Test add element</span>'
+  - kiểm tra: console.log(boxElement.outerHTML)
+  -> kết quả  <div class="box"><span>Test add element</span></div> --> lấy ra element từ class : 'box'
+
+
+ví dụ 2:
+
+- tạo thẻ
+var boxElement = document.querySelector('.box')
+// console.log(boxElement);
+boxElement.outerHTML = '<span>Test add element</span>'
+// console.log(document.querySelector('h1').innerText)
+
+console.log(boxElement)
+
+---> thẻ span sẽ ghi đè thẻ div : trong DOM sẽ không còn thẻ div có class='box' 
+- console.log(boxElement) -> cho kết quả do biến boxElement được lưu trong bộ nhớ .
 
 
 InnerHTML vs OuterHTML Property
+
+- InnerHTML : ghi đè thẻ con của nó.
+- OuterHTML : ghi đè chính nó.
 
