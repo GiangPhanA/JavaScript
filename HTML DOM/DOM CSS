@@ -19,3 +19,13 @@ var boxElement = document.querySelector('.box')
 // console.log([boxElement]);
 boxElement.style.width = '200px';
 boxElement.style.backgroundColor = 'red'
+
+
+2. Object.asign
+
+var boxElement = document.querySelector('.box')
+
+Object.assign(boxElement.style, {
+    width: '200px',
+    backgroundColor: 'red'
+})
