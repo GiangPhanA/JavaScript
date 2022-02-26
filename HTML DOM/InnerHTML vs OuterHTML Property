@@ -5,5 +5,12 @@ Thêm 1 element trong 1 element : InnerHTML vs OuterHTML Property thuộc tính 
 
 -> Lấy ra được text (get) được h1: console.log(document.querySelector('h1').innerText)
 
+InnerHTML: thêm được
+- element : boxElement.innerHTML = '<h1>Xin chào Giang Phan</h1>'
+- attribute : boxElement.innerHTML = '<h1 title="heading">Xin chào Giang Phan</h1>'
+- text node: console.log(boxElement.innerHTML)
+
+
+
 InnerHTML vs OuterHTML Property
 
