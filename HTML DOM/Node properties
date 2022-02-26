@@ -28,4 +28,4 @@ contenteditable="" có thể thay đổi trực tiếp nội dung thẻ html tr�
         <h1 title = "tit">Xin chào Giang Phan</h1>
       </div>
       
-      
+ - tabIndex="1" nhảy tab input     
