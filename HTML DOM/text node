@@ -1,1 +1,22 @@
+
+HTLM:
+- element
+- attribue
+- text
+
+truy cập elemnent : qua document (cao nhất) quản lý tất cả các element
+- muốn tác động attribue và text : phải truy cập ddowcj element
+(như cây (tree) HTMl
+
 text node
+
+
+<h1 class="heding">Heading Text</h1>
+
+---> text node là Heading Text
+
+-  Lấy ra text : có 2 cách
+
+var headingElement = document.querySelector('.heading');
+console.log(headingElement.innerText);
+console.log(headingElement.textContent);
