@@ -6,7 +6,7 @@ Destructuring, Rest
 
 - Rest: lấy ra phần còn lại ...rest
   + sử dụng khi kết hợp Destructuring 
-  + Khi sử dụng với hàm : truyền đối số cho hàm.
+  + Khi sử dụng với hàm : định nghĩa tham số cho hàm.
   
   
   
