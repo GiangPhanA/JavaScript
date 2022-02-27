@@ -5,8 +5,9 @@ Destructuring, Rest
 
 
 - Rest: lấy ra phần còn lại ...rest
+  - sử dụng ...rest --> nó là 1 cái mảng
   + sử dụng khi kết hợp Destructuring 
-  + Khi sử dụng với hàm : định nghĩa tham số cho hàm.
+  + Khi sử dụng với hàm : định nghĩa tham số cho hàm. 
   
   
   
