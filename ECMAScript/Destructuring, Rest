@@ -1,7 +1,10 @@
 Destructuring, Rest
 
 - Destructuring : Phân rã array, object
-- Rest: lấy ra phần còn lại
++ với object : khi sử dụng Destructuring  : đúng key.
+
+
+- Rest: lấy ra phần còn lại ...rest
   + sử dụng khi kết hợp Destructuring 
   + Khi sử dụng với hàm : truyền đối số cho hàm.
   
