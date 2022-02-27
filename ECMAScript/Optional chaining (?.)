@@ -1,5 +1,7 @@
 Optional chaining (?.)
 -> nghi ngờ tồn tại? có tồn tại hay không ?
 
+- Sử dụng: khi chúng ta không chắc, không tin tưởng nó có tồn tại hay không ?
+
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
