@@ -1,0 +1,6 @@
+Enhanced object literals
+
+- Định nghĩa key, value cho Object
+- Định nghĩa method cho Object
+- Định nghĩa key cho Object dưới dạng biến.
+
