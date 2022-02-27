@@ -1,1 +1,14 @@
 Spread
+- sử dụng trước array hoặc object ---> thì nó bỏ đi cặp [] hoặc {}
+
+
+ví dụ:
+
+var array1 = ['Javascript', 'PHP', 'Python']
+var array2 = ['ReactJS', 'Vue']
+
+---> bài toán tạo array3 từ array1 và array2
+
+-ta sử dụng toán tử spread ... như sau:
+
+var array3 = [...array1, ...array2];
