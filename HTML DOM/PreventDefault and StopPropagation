@@ -1,0 +1,6 @@
+PreventDefault and StopPropagation
+
+- PreventDefault : loại bỏ hành vi mặc định của tình duyệt trên thẻ HTML
+
+
+-StopPropagation : Loại bỏ sự kiện nổi bọt.
