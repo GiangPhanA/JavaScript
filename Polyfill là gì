@@ -1,1 +1,6 @@
 Polyfill là gì
+- Polyfills la gì - "Polyfill là một đoạn mã (thường là JavaScript trên Web) 
+được sử dụng để cung cấp chức năng hiện đại trên các trình duyệt cũ hơn 
+vốn không hỗ trợ nó." Theo MDN. Có nghĩ là sao? Có nghĩa là có thể một 
+số trình duyệt cũ như IE8 không hỗ trợ những tính năng trong ES6, 
+chẳng hạn như một trong những tính năng của Method arrays đó là Array.include(). 
