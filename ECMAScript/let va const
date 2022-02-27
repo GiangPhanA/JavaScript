@@ -1,1 +1,42 @@
 let va const : thay thế var
+
+- Var / Let, const : scope, hosting
+- Var / Let, const : assignment
+
+- code block: if else, loop, {}....
+ + if(true){
+   var course ="Java";
+ }
+
+
+-> Giống nhau: khai báo biến.
+
+-> Khác nhau: là phạm vi(scope) : khai báo let và const : chỉ truy cập được trong block.
+
+2. hosting : đưa lên đầu, nhấc biến lên đầu
+- var : hỗ trợ  hosting .
+- Let, const : không hỗ trợ  hosting .
+
+
+3. const : không sử dụng toán tử gán lần thứ 2 với nó. Nhưng thay đổi thuộc tính của nó thì ok
+
+ví dụ 1:
+const a ={
+name: 'Javascript'
+}
+
+a.name = 'PHP' 
+console.log(a.name)
+
+---> ok
+
+ví dụ 2:
+const a ={
+name: 'Javascript'
+}
+
+a = 'PHP' 
+console.log(a.name)
+
+---> Nok ---> không được.
+
