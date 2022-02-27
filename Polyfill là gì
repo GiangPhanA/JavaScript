@@ -4,3 +4,21 @@ Polyfill là gì
 vốn không hỗ trợ nó." Theo MDN. Có nghĩ là sao? Có nghĩa là có thể một 
 số trình duyệt cũ như IE8 không hỗ trợ những tính năng trong ES6, 
 chẳng hạn như một trong những tính năng của Method arrays đó là Array.include(). 
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+String.prototype.includes()
+
+
+if (!String.prototype.includes) {
+  String.prototype.includes = function(search, start) {
+    'use strict';
+
+    if (search instanceof RegExp) {
+      throw TypeError('first argument must not be a RegExp');
+    }
+    if (start === undefined) { start = 0; }
+    return this.indexOf(search, start) !== -1;
+  };
+}
+
