@@ -1,5 +1,6 @@
 Spread
-- sử dụng trước array hoặc object ---> thì nó bỏ đi cặp [] hoặc {}
+- sử dụng trước array hoặc object ---> thì nó bỏ đi cặp [] hoặc {}.
+- Sử dụng khi truyền đối số cho hàm.
 
 
 ví dụ:
