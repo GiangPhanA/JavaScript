@@ -9,7 +9,7 @@ let va const : thay thế var
  }
 
 
--> Giống nhau: khai báo biến.
+-> Giống nhau: khai báo biến. định nghĩa biến lần đầu
 
 -> Khác nhau: là phạm vi(scope) : khai báo let và const : chỉ truy cập được trong block.
 
@@ -18,7 +18,8 @@ let va const : thay thế var
 - Let, const : không hỗ trợ  hosting .
 
 
-3. const : không sử dụng toán tử gán lần thứ 2 với nó. Nhưng thay đổi thuộc tính của nó thì ok
+3. const : không sử dụng toán tử gán lần thứ 2 với nó. Nhưng thay đổi thuộc tính của nó thì ok.
+- var, let : gán lại được.
 
 ví dụ 1:
 const a ={
@@ -40,3 +41,9 @@ console.log(a.name)
 
 ---> Nok ---> không được.
 
+4. Kết luận:
+- code thuần : dùng var
+- Thư viện: Babel dùng let, const
+    + định nghĩa biến và không gán lại biến đó : dùng const
+    + Khi cần gán lại giá trị cho biến thì dùng : let.
+-
