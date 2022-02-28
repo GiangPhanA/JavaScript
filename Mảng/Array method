@@ -15,6 +15,8 @@ Array method
 
 
 2.  Cú pháp hàm reduce trong Javascript 
+-Hàm reduce sẽ duyệt qua từng phần tử trong mảng, sau đó trả về một giá trị cuối cùng,
+giá trị này phụ thuộc vào chương trình của hàm mà bạn truyền vào reduce
  
  - array.reduce(callback, initialValue)  --> reduce có 2 đối số: callback và initialValue.
  
