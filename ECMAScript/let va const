@@ -15,7 +15,7 @@ let va const : thay thế var
 
 2. hosting : đưa lên đầu, nhấc biến lên đầu
 - var : hỗ trợ  hosting .
-- Let, const : không hỗ trợ  hosting .
+- Let, const : không hỗ trợ  hosting . Được hoisting, nhưng không sử dụng được
 
 
 3. const : không sử dụng toán tử gán lần thứ 2 với nó. Nhưng thay đổi thuộc tính của nó thì ok.
