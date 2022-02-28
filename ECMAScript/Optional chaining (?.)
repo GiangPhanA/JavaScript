@@ -1,7 +1,32 @@
-Optional chaining (?.)
+Optional chaining (?.) :   ?.đặt ở phía sau đặt nghi vấn.
 -> nghi ngờ tồn tại? có tồn tại hay không ?
 
 - Sử dụng: khi chúng ta không chắc, không tin tưởng nó có tồn tại hay không ?
 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
+
+ví dụ: nghi ngờ cat2:
+
+
+const obj = {
+    name: 'Giang',
+    cat: {
+        name: 'FUXI',
+        // cat2: {
+        //     name: 'FUXI2'
+        // }
+    }
+};
+if (obj.cat) {
+    console.log(obj.cat.cat2?.name)
+}
+
+
+Syntax
+
+obj.val?.prop
+obj.val?.[expr]
+obj.arr?.[index]
+obj.func?.(args)
