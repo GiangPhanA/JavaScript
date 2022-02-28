@@ -23,6 +23,9 @@ if (obj.cat) {
     console.log(obj.cat.cat2?.name)
 }
 
+--> kết quả trả về : undefined
+- Nếu không có ?. ---> trả về Uncaught TypeError: obj.cat.cat2 is undefined ---> lỗi.
+
 
 Syntax
 
