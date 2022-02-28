@@ -1,5 +1,13 @@
 
+ Hoisting là gì?
 
+-  Hoisting  à không hoisting là cơ chế của JavaScript cho phép các khai báo biến hoặc 
+hàm được dời lên trên đầu phạm vi của chúng trước khi thực thi đoạn code.
+
+- Điều này có nghĩa là bất kể hàm và biến được khai báo ở đâu, 
+chúng đều được chuyển lên đầu phạm vi của chúng, bất kể là toàn cục hay cục bộ.
+
+> Lưu ý: Là cơ chế này chỉ di chuyển phần khai báo mà thôi còn các phần khác giữ nguyên không đụng gì đến nó hết.
 
 
  Tổng kết
